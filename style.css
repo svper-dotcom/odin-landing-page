@@ -2,6 +2,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
 }
 
 .header, 
@@ -50,6 +51,7 @@ ul {
 .button1 {
     background-color: #3882f6;
     color: #F9FAF8;
+    
 }
 
 .info-header{
@@ -60,7 +62,25 @@ ul {
 
 .part1 {
     height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
 }
+
+.part1-content {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 150px;
+}
+
+
+
+
 
 .part2 {
 
@@ -110,4 +130,7 @@ ul {
     height: 100px;
 }
 
-
+button {
+    border-radius: 8px;
+    padding: 8px 16px;
+}
