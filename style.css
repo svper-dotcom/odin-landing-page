@@ -31,13 +31,13 @@ ul {
 }
 
 .main{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
 .secondary {
-    font-size: 18px;
+    font-size: 14px;
     color: #e5e7eb;
 }
 
@@ -46,6 +46,7 @@ ul {
     color: #F9FAF8;
     border: solid #3882f6;
     width: 25%;
+    margin-top: 8px;
     
     
 }
