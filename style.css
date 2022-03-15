@@ -47,6 +47,7 @@ ul {
     border: solid #3882f6;
     width: 25%;
     
+    
 }
 
 .info-header{
@@ -61,7 +62,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap: 24px;
     padding-left: 60px;
     padding-right: 60px;
     padding-bottom: 60px;
@@ -81,6 +82,12 @@ ul {
     height: 300px;
     padding: 55px;
 
+}
+
+img {
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    
 }
 
 .part3 {
@@ -138,11 +145,12 @@ text-align: center;
 
 .button2 {
     border: 2px solid #F9FAF8;
-     margin-left: 200px;
+     margin-left: 150px;
+     padding: 6px 24px;
 }
 
 .cta {
-    width: 1000px;
+    width: 700px;
     height: 100px;
     border-radius: 8px;
     display: flex;
@@ -160,9 +168,14 @@ button {
 }
 
 .footer {
-    background-color: #ffffff;
+    background-color: #1F2937;
     color: #F9FAF8;
     padding: 24px;
     display: flex;
     justify-content: center;
+}
+
+.image1 {
+    border: none;
+    border-radius: 0;
 }
